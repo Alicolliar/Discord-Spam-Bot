@@ -19,8 +19,8 @@ async def on_message(message):
         game=discord.Game(name="""Screwing with 'people'""")
         await Client.change_presence(activity=game)
         while x < 50:
-            await message.channel.send(#Your spam phrase#)
+            await message.channel.send("""#Your spam phrase#""")
             x=x+1
         else:
             return
-Client.run(#Your bot token#)
+Client.run("""#Your bot token#""")
